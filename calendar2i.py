@@ -15,9 +15,6 @@ from oauth2client.file import Storage
 import datetime
 import random
 
-
-
-
 try:
     import argparse
     flags = argparse.ArgumentParser(parents=[tools.argparser]).parse_args()
